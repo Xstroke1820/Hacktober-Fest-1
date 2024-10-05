@@ -1,24 +1,29 @@
-prnt("Hello, world!")
-for i in rang(5):
-    print(i)
+def my_function():
+
+    print("Hello, world!")
+    for i in range(5):
+        print(i)
 
 
-pritn("Hello, world!")
-for i in rnage(10):
-    print(i)
-my_varaible = 10
-print(my_variable)
+    print("Hello, world!")
+    for i in range(10):
+        print(i)
+    my_varaible = 10
+    print(my_varaible)
 
-x = 10
-y = 5
-result = x - y + z 
-if x = 5: 
-    print("x is 5")
+    x = 10
+    y = 5
+    z = int(input("enter a number "))
+    result = x - y + z 
+    print(result)
+    if x == 5:
+        print("x is 5")
 
-if x > 10:
-    print("x is greater")
-else if x == 10:
-    print("x is equal")
-
-del my_function() 
+    if x > 10:
+        print("x is greater")
+    else:
+        x == 10
+        print("x is equal")
+        
+my_function() 
 
