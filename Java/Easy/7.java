@@ -1,6 +1,5 @@
 class Main {
-    public static void main(String[] args) {
-        int nums[] = new int[5];
+    publ
         System.out.println(nums.length);
     }
 }
